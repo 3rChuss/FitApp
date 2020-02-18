@@ -3,6 +3,6 @@ WebApp for Fitness control
 
 
 Install: npm install
-bower isntall
+bower install
 
 Serve: gulp serve

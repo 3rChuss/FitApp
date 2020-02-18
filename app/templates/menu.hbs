@@ -1,0 +1,20 @@
+<ul id="sideMenu" class="side-nav fixed valign">
+	<li>
+		<div class="userView">
+			<a href="#!home">
+				<span class="logo">
+					TryalFit
+				</span>
+			</a>
+		</div>
+	</li>
+	<li>
+		<div class="divider"></div>
+	</li>
+	{{#each menuItems}}
+		<li>
+			<a href="#" onclick="changeState('{{state}}')" id="{{state}}Link" class="menuLinks"><i class="{{icon}} fa-2x"></i> <span class="separacion">{{item}}</span></a>
+		</li>
+		<hr>
+	{{/each}}
+</ul>

@@ -1,0 +1,35 @@
+// bower:scss
+// endbower
+@import 'menu';
+@import 'palette.scss';
+
+body {
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: $primary-text-color;
+}
+hr{
+  border-color: $primary-color-light;
+  margin:0;
+}
+
+.mainContent, .footer-copyright{
+  padding-left: 300px;
+  background-color: #fff !important;
+  color: $primary-text-color !important;
+}
+.page-title{
+	padding-left: 20px;
+  font-size: 2rem;
+}
+
+.footer-copyright{
+  padding-left: 20px;
+	line-height: 20px!important;
+	margin-bottom: 0px!important;
+  height: 55px!important;
+}
